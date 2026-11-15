@@ -1,0 +1,22 @@
+[
+  {"query": "stardew valey", "expect_any": ["413150"], "note": "typo: Stardew Valley"},
+  {"query": "terraria", "expect_any": ["105600"], "note": "exact title"},
+  {"query": "portal 2", "expect_any": ["620"], "note": "title with number, many 'Portal' games"},
+  {"query": "hollow night", "expect_any": ["367520"], "note": "typo: Hollow Knight"},
+  {"query": "witcher 3", "expect_any": ["292030"], "note": "partial title of 'The Witcher 3: Wild Hunt'"},
+  {"query": "eldn ring", "expect_any": ["1245620"], "note": "typo: Elden Ring"},
+  {"query": "baldurs gate 3", "expect_any": ["1086940"], "note": "missing apostrophe"},
+  {"query": "hades", "expect_any": ["1145360"], "note": "short title shared by other games"},
+  {"query": "celeste", "expect_any": ["504230"], "note": "exact title"},
+  {"query": "factorio", "expect_any": ["427520"], "note": "exact title"},
+  {"query": "colony sim", "expect_any": ["294100"], "note": "genre phrase: RimWorld"},
+  {"query": "subnautica underwater survival", "expect_any": ["264710"], "note": "title + description words"},
+  {"query": "viking survival", "expect_any": ["892970"], "note": "description: Valheim"},
+  {"query": "roguelike deck building", "expect_any": ["646570"], "note": "tags: Slay the Spire"},
+  {"query": "truck driving simulator europe", "expect_any": ["227300"], "note": "description: Euro Truck Simulator 2"},
+  {"query": "city builder", "expect_any": ["255710"], "note": "tag phrase: Cities: Skylines"},
+  {"query": "undertale", "expect_any": ["391540"], "note": "exact title"},
+  {"query": "social deduction impostor", "expect_any": ["945360"], "note": "description: Among Us"},
+  {"query": "cozy farming with friends", "expect_any": ["413150"], "note": "intent query; expected to need semantic search"},
+  {"query": "survival with friends don't starve", "expect_any": ["322330"], "note": "Don't Starve Together"}
+]

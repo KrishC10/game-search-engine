@@ -1,0 +1,14 @@
+[
+  {"id": "ex001", "request": "You play as a little bug knight exploring a huge underground kingdom full of ruins, really hard bosses, hand drawn art", "answer_app_id": "367520", "answer_name": "Hollow Knight", "source": "example", "url": null},
+  {"id": "ex002", "request": "farming game where you inherit your grandpa's farm, pixel art, you can marry people in the town and go into mines", "answer_app_id": "413150", "answer_name": "Stardew Valley", "source": "example", "url": null},
+  {"id": "ex003", "request": "you crash land on an ocean planet and have to survive by diving deeper and deeper, building a base underwater, scary leviathans", "answer_app_id": "264710", "answer_name": "Subnautica", "source": "example", "url": null},
+  {"id": "ex004", "request": "climbing a mountain as a girl dealing with anxiety, very hard precise platformer, pixel art, strawberries to collect", "answer_app_id": "504230", "answer_name": "Celeste", "source": "example", "url": null},
+  {"id": "ex005", "request": "son of the god of the dead trying to escape the underworld, roguelike, greek gods give you powers", "answer_app_id": "1145360", "answer_name": "Hades", "source": "example", "url": null},
+  {"id": "ex006", "request": "game where you can spare every monster instead of fighting, a skeleton brothers pair, weird humour, came out around 2015", "answer_app_id": "391540", "answer_name": "Undertale", "source": "example", "url": null},
+  {"id": "ex007", "request": "card game roguelike where you climb a tower and build a deck, choose a path on a map, came out 2017-2019", "answer_app_id": "646570", "answer_name": "Slay the Spire", "source": "example", "url": null},
+  {"id": "ex008", "request": "building factories on an alien planet, conveyor belts everywhere, automate everything, biters attack your pollution", "answer_app_id": "427520", "answer_name": "Factorio", "source": "example", "url": null},
+  {"id": "ex009", "request": "you manage crash landed colonists on a planet, a storyteller AI makes random events happen, raids, mental breaks", "answer_app_id": "294100", "answer_name": "RimWorld", "source": "example", "url": null},
+  {"id": "ex010", "request": "survival game with vikings after you die, you go to the tenth world and kill big bosses, building longhouses with friends", "answer_app_id": "892970", "answer_name": "Valheim", "source": "example", "url": null},
+  {"id": "ex011", "request": "you play on a spaceship with friends and someone is secretly the killer, do tasks, call meetings and vote people out", "answer_app_id": "945360", "answer_name": "Among Us", "source": "example", "url": null},
+  {"id": "ex012", "request": "physics puzzle game with a gun that makes two linked holes in walls, a sarcastic robot, test chambers, co-op with two robots", "answer_app_id": "620", "answer_name": "Portal 2", "source": "example", "url": null}
+]
