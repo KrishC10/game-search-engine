@@ -38,8 +38,12 @@ def create_index(es: Elasticsearch, index: str, recreate: bool) -> None:
 
 
 def description_text(doc: dict) -> str:
-    """What the description vector represents: the short description plus tags."""
-    return f"{doc['short_description']} Tags: {', '.join(doc.get('tags', []))}"
+    """What the description vector represents: name, short description and tags.
+
+    The name is included so semantic search also understands title queries; without it,
+    fusion lets games that match both lists loosely outrank an exact title hit.
+    """
+    return f"{doc['name']}. {doc['short_description']} Tags: {', '.join(doc.get('tags', []))}"
 
 
 def attach_reviews(docs: Iterable[dict], reviews: Dict[str, List[str]], stats: Counter) -> Iterator[dict]:
@@ -103,6 +107,9 @@ def main() -> None:
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+    # The clients log every HTTP request at INFO, which buries the progress lines.
+    for noisy in ("elastic_transport", "httpx", "sentence_transformers"):
+        logging.getLogger(noisy).setLevel(logging.WARNING)
     for path in (args.csv, args.reviews):
         if path and not path.exists():
             sys.exit(f"File not found: {path}. Download the datasets into data/ first (see README).")
